@@ -1,0 +1,16 @@
+:root {
+  --COLOR-GRAY: #333;
+  --COLOR-GRAY-DARK: #222;
+  --COLOR-GRAY-LIGHT: #CCC;
+  --COLOR-ONGOING: #98C1D9;
+  --COLOR-DONE: #EE6C4D;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,45 @@
+.Task {
+  background-color: #fff;
+  color: #000;
+  height: 5rem;
+  padding: 0.35rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.bottomWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status {
+  font-size: 12px;
+  padding: 0.25rem;
+  border-radius: 4px;
+  background-color: var(--COLOR-GRAY-LIGHT);
+}
+
+
+.ONGOING {
+  background-color: var(--COLOR-ONGOING);
+}
+
+.DONE {
+  background-color: var(--COLOR-DONE);
+}
+
+.deleteTask {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.deleteTask:hover {
+  color: red;
+}

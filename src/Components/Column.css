@@ -1,0 +1,76 @@
+.column {
+  background-color: var(--COLOR-GRAY-DARK);
+  min-height: 20rem;
+  color: #fff;
+  width: 33%;
+  max-width: 20rem;
+  margin: 1rem 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 4px dashed transparent;
+}
+
+.column.drop {
+  border-color: white;
+}
+
+.column p {
+  margin-block: 10px;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleWrapper button {
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.titleWrapper button:hover {
+  background-color: var(--COLOR-GRAY-LIGHT);
+}
+
+.modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0, 0.2);
+}
+
+.modalContainer {
+  display: grid;
+  height: 100%;
+  place-content: center;
+}
+
+.inputForm {
+  width: 20rem;
+  height: 10rem;
+  background-color: #2f4b6a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.inputForm input {
+  width: 80%;
+  margin-bottom: 0.75rem;
+}
+
+.inputForm button {
+  background-color: green;
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
